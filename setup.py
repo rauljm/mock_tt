@@ -17,7 +17,8 @@ setup(
     packages=["ktrusted.source",
               "ktrusted.target",
               "ktrusted.transformation",
-              "ktrusted.surrogate"],
+              "ktrusted.surrogate",
+              "config"],
     install_requires=requirements,
     classifiers=[
         "Programming Language :: Python :: 3.7",
