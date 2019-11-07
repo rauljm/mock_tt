@@ -1,7 +1,7 @@
 from pyspark.sql import functions as f
 
 
-def surrogate(*cols):
+def generate(*cols):
     def run():
         any_is_null = None
         for col in cols:
