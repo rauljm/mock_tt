@@ -6,7 +6,7 @@ with open("README.md", "r") as readme_file:
 requirements = ["pyspark"]
 
 setup(
-    name="ktrusted",
+    name="mock_tt",
     version=open("version.txt").read(),
     author="Raul Martins/Leandro Soares",
     author_email="raul.wanderlei-ess@parceiros-kroton.com.br",
