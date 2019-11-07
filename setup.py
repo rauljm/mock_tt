@@ -11,7 +11,7 @@ setup(
     author="Raul Martins/Leandro Soares",
     author_email="raul.wanderlei-ess@parceiros-kroton.com.br",
     description="Nova estrutura da trusted-transformation",
-    long_description=readme,
+    long_description=open("version.txt").read(),
     long_description_content_type="text/markdown",
     url="https://github.com/rauljm/mock_tt/",
     packages=find_packages(),
