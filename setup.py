@@ -1,4 +1,4 @@
-from setuptools import setup, find_packages
+from setuptools import setup
 
 with open("README.md", "r") as readme_file:
     readme = readme_file.read()
@@ -6,15 +6,15 @@ with open("README.md", "r") as readme_file:
 requirements = ["pyspark"]
 
 setup(
-    name="mock_tt",
-    version="0.0.2",
+    name="ktrusted",
+    version=open("version.txt").read(),
     author="Raul Martins/Leandro Soares",
     author_email="raul.wanderlei-ess@parceiros-kroton.com.br",
     description="Nova estrutura da trusted-transformation",
-    long_description=open("version.txt").read(),
+    long_description=readme,
     long_description_content_type="text/markdown",
     url="https://github.com/rauljm/mock_tt/",
-    packages=find_packages(),
+    packages=["ktrusted"],
     install_requires=requirements,
     classifiers=[
         "Programming Language :: Python :: 3.7",
